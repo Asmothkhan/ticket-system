@@ -1,0 +1,8 @@
+1.What is JSX, and why is it used?
+Ans: Jsx is a javascript livbrey ,javascript diye soje js and html ak sathe likha jai.
+2.What is the difference between State and Props?
+Ans: state holo component er nijer data ja change kora jai. but prop holo parent theke child a data pathanor maddhom seta change kora jai na.
+3.What is the useState hook, and how does it work?
+Ans:useState hook holo data creat and update korar jonno use kora hoye thake.
+4.How is event handling done in React?
+Ans: html er cheye React a eventhandling onek sohoj . html a onek code likhte hoy but react a temon code likhte hoy na.
