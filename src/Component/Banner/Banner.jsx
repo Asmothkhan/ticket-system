@@ -3,7 +3,7 @@ import './Banner.css'
 import vector1 from '../../assets/vector1.png';
 import vector2 from '../../assets/vector2.png';
 
-const Banner = () => {
+const Banner = ({ taskTicket=[] }) => {
     return (
         <div className='flex flex-col md:flex-row text-center mt-5 gap-6 p-5 md:p-10'>
             {/* First Card: In-Progress */}
@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className='box right w-1/2 h-full' style={{backgroundImage:`url(${vector2})`, backgroundSize: 'cover'}}></div>
                 </div>
                 <div className='grid '>
-                    <span className="relative z-10 text-white font-bold text-2xl">In-Progress </span><span className='text-white font-bold text-4xl '>0</span>
+                    <span className="relative z-10 text-white font-bold text-2xl">In-Progress </span><span className='text-white font-bold text-4xl '>{taskTicket.length}</span>
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
 [
     {
        "title" :"Login Issues-Can't Access Account",
-       "id": 1,
+       "id":1001,
        "description":"Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
        "name":"John smith",
        "priority":"HIGH PRIORITY",
@@ -10,7 +10,7 @@
     },
     {
        "title" :"Unable to Download Invoice",
-       "id": 2,
+       "id":1002,
        "description":"Customer cannot download their January invoice from the billing section. The download button is...",
        "name":"Michael Brown",
        "priority":"MEDIUM PRIORITY",
@@ -19,7 +19,7 @@
     },
     {
        "title" :"Two-Factor Authentication Issue",
-       "id": 3,
+       "id": 1003,
        "description":"Customer is not receiving 2FA codes on their registered phone number.",
        "name":"James Anderson",
        "priority":"HIGH PRIORITY",
@@ -28,7 +28,7 @@
     },
     {
        "title" :"App Crash on Launch",
-       "id": 4,
+       "id": 1004,
        "description":"Customer reports that the mobile app crashes immediately upon opening on Android 13.",
        "name":"David Wilson",
        "priority":"HIGH PRIORITY",
@@ -37,7 +37,7 @@
     },
     {
        "title" :"Subscription Auto-Renewal",
-       "id": 5,                  
+       "id": 1005,                  
        "description":"Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
        "name":"Liam Thomas",
        "priority":"MEDIUM PRIORITY",
@@ -46,7 +46,7 @@
     },
     {
        "title" :"Payment Failed - Card Declined",
-       "id": 6,                  
+       "id": 1006,                  
        "description":"Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
        "name":"Sarah Johnson",
        "priority":"HIGH PRIORITY",
@@ -55,7 +55,7 @@
     },
     {
        "title" :"Incorrect Billing Address",
-       "id": 7,
+       "id": 1007,
        "description":"Customer’s billing address shows a different city. They updated it but it still displays the old one.",
        "name":"Emily Davis",
        "priority":"LOW PRIORITY",
@@ -64,7 +64,7 @@
     },
     {
        "title" :"Refund Not Processed",
-       "id": 8,
+       "id": 1008,
         "description":"Customer requested a refund two weeks ago but has not received the amount yet.",
        "name":"Sophia Taylor",
        "priority":"MEDIUM PRIORITY",
@@ -73,7 +73,7 @@
     },
     {
        "title" :"Unable to Update Profile Picture",
-       "id":9,
+       "id":1009,
        "description":"Customer requested a refund two weeks ago but has not received the amount yet.",
        "name":"Sophia Taylor",
        "priority":"LOW PRIORITY",
@@ -82,7 +82,7 @@
     },
     {
        "title" :"Missing Order Confirmation Email",
-       "id":10,
+       "id":1010,
        "description":"Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
        "name":"Isabella Garcia",
        "priority":"MEDIUM PRIORITY",
