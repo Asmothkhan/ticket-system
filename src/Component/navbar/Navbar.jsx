@@ -2,7 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-<div className="navbar bg-base-100 shadow-sm mx-auto text-center justify-center p-4">
+
+
+<div className="navbar bg-base-100 shadow-sm mx-auto text-center ">
   <div className="navbar-start">
     
     <a className="text-2xl font-bold">CS-Ticket System</a>

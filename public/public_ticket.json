@@ -1,0 +1,96 @@
+[
+    {
+       "title" :"Login Issues-Can't Access Account",
+       "id": 1,
+       "description":"Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
+       "name":"John smith",
+       "priority":"HIGH PRIORITY",
+       "Progress":"OPEN",
+       "date":"1/15/2024"
+    },
+    {
+       "title" :"Unable to Download Invoice",
+       "id": 2,
+       "description":"Customer cannot download their January invoice from the billing section. The download button is...",
+       "name":"Michael Brown",
+       "priority":"MEDIUM PRIORITY",
+       "Progress":"In- Progress",
+       "date":"1/17/2024"
+    },
+    {
+       "title" :"Two-Factor Authentication Issue",
+       "id": 3,
+       "description":"Customer is not receiving 2FA codes on their registered phone number.",
+       "name":"James Anderson",
+       "priority":"HIGH PRIORITY",
+       "Progress":"OPEN",
+       "date":"1/21/2024"
+    },
+    {
+       "title" :"App Crash on Launch",
+       "id": 4,
+       "description":"Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+       "name":"David Wilson",
+       "priority":"HIGH PRIORITY",
+       "Progress":"OPEN",
+       "date":"11/19/2024"
+    },
+    {
+       "title" :"Subscription Auto-Renewal",
+       "id": 5,                  
+       "description":"Customer wants to enable auto-renewal for their subscription but the toggle is disabled.",
+       "name":"Liam Thomas",
+       "priority":"MEDIUM PRIORITY",
+       "Progress":"In- Progress",
+       "date":"1/17/2024"
+    },
+    {
+       "title" :"Payment Failed - Card Declined",
+       "id": 6,                  
+       "description":"Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+       "name":"Sarah Johnson",
+       "priority":"HIGH PRIORITY",
+       "Progress":"OPEN",
+       "date":"1/16/2024"
+    },
+    {
+       "title" :"Incorrect Billing Address",
+       "id": 7,
+       "description":"Customer’s billing address shows a different city. They updated it but it still displays the old one.",
+       "name":"Emily Davis",
+       "priority":"LOW PRIORITY",
+       "Progress":"OPEN",
+       "date":"1/18/2024"
+    },
+    {
+       "title" :"Refund Not Processed",
+       "id": 8,
+        "description":"Customer requested a refund two weeks ago but has not received the amount yet.",
+       "name":"Sophia Taylor",
+       "priority":"MEDIUM PRIORITY",
+       "Progress":"In- Progress",
+       "date":"1/20/2024"
+    },
+    {
+       "title" :"Unable to Update Profile Picture",
+       "id":9,
+       "description":"Customer requested a refund two weeks ago but has not received the amount yet.",
+       "name":"Sophia Taylor",
+       "priority":"LOW PRIORITY",
+       "Progress":"OPEN",
+       "date":"1/22/2024"
+    },
+    {
+       "title" :"Missing Order Confirmation Email",
+       "id":10,
+       "description":"Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
+       "name":"Isabella Garcia",
+       "priority":"MEDIUM PRIORITY",
+       "Progress":"OPEN",
+       "date":"1/24/2024"
+    }
+    
+
+    
+    
+]
