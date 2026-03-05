@@ -1,17 +1,25 @@
 import React, { use } from 'react';
 import TicketCard from './TicketCard';
 import Task from '../task/Task';
+import { toast } from "react-toastify";
 
-const MainContainer = ({ ticketsPromise, setTaskTicket, taskTicket }) => {
+const MainContainer = ({ ticketsPromise, setTaskTicket, taskTicket , resolvedTask, setResolvedTask}) => {
 
   const tickets = use(ticketsPromise);
 
   const handleTicketClick = (ticket) => {
-    setTaskTicket([...taskTicket, ticket]);
-     // Console log to check the clicked ticket
-    // ((prev) => [...prev, ticket]);
-  };
+  const exists = taskTicket.find(t => t.id === ticket.id);
 
+  if (!exists) {
+    setTaskTicket((prev) => [...prev, ticket]);
+  }
+   toast.success("Task Added ✅");
+};
+
+ const handleResolve = (ticket) => {
+  setTaskTicket((prev) => prev.filter(t => t.id !== ticket.id));
+  setResolvedTask((prev) => [...prev, ticket]);
+};
   return (
 
     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-6 bg-gray-50">
@@ -49,7 +57,11 @@ const MainContainer = ({ ticketsPromise, setTaskTicket, taskTicket }) => {
 
       </div>
 
-      <Task taskTicket={taskTicket}/>
+      <Task 
+      handleResolve={handleResolve} 
+      resolvedTask={resolvedTask} 
+      setResolvedTask={setResolvedTask}
+       taskTicket={taskTicket}/>
 
     </div>
 
