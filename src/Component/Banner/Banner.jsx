@@ -5,7 +5,7 @@ import vector2 from '../../assets/vector2.png';
 
 const Banner = ({ taskTicket=[] , resolvedTask=[]}) => {
     return (
-        <div className='flex flex-col md:flex-row text-center mt-5 gap-6 p-5 md:p-10'>
+        <div className='flex flex-col md:flex-row text-center mt-5 gap-6 p-5 md:p-10 '>
             {/* First Card: In-Progress */}
             <div className='w-1/2 rounded-xl h-60 flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-500 relative overflow-hidden mb-5'>
                 <div className='flex w-full h-full absolute top-0 left-0 opacity-50'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import './footer.css'
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
              <div className=' grid md:grid-cols-5 p-10'>
             <div>
                 <h2 className='text-2xl font-semibold'>CS- Ticket System</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis architecto dolorum inventore culpa soluta sed aliquam minima laudantium possimus quaerat dolore ea veniam, voluptatem nulla enim! Magni, facere est.</p>
+                <p>If you experience any issues while using our platform, please submit a support ticket with detailed information. Our support team will review your request and respond promptly to help resolve the problem..</p>
             </div>
             <div className='md:ml-20 mt-5'>
                 <h3 className='font-semibold text-2xl  mb-4'>Company</h3>
@@ -35,10 +36,10 @@ const Footer = () => {
             <div className='mt-5'>
                <h3 className='font-semibold text-2xl  mb-4'>Social Links</h3>
                 <ul>
-                    <li className='mb-2'><a href="">@CS- Ticket System</a></li>
-                    <li className='mb-2'><a href="">@CS- Ticket System</a></li>
-                    <li><a href="">@CS- Ticket System</a></li>
-                    <li><a href="">support@cst.com</a></li>
+                    <li className='mb-2'><a href=""><span className='x'><i class="fa-brands fa-x-twitter"></i></span> @CS- Ticket System</a></li>
+                    <li className='mb-2'><a href=""><span><i class="fa-brands fa-facebook"></i></span> @CS- Ticket System</a></li>
+                    <li><a href=""><span><i class="fa-brands fa-linkedin"></i></span> @CS- Ticket System</a></li>
+                    <li><a href=""><span><i class="fa-solid fa-envelope"></i></span>  support@cst.com</a></li>
                 </ul>  
             </div>
            
